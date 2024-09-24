@@ -2,6 +2,6 @@ options all -Indexes
 
 options -MmultiViews
 
-RewriteEngine options
-RewriteCond %{REQUEST_FLIME}
-Rewrite
+RewriteEngine On
+RewriteCond %{REQUEST_FLIME} !-f
+RewriteRule ^ index.php[QSA,L]
