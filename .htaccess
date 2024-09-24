@@ -1,0 +1,7 @@
+options all -Indexes
+
+options -MmultiViews
+
+RewriteEngine options
+RewriteCond %{REQUEST_FLIME}
+Rewrite
