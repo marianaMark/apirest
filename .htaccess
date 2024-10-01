@@ -1,7 +1,6 @@
-options all -Indexes
+Options All -Indexes
 
-options -MmultiViews
-
+Options -MultiViews
 RewriteEngine On
-RewriteCond %{REQUEST_FLIME} !-f
-RewriteRule ^ index.php[QSA,L]
+RewriteCond %{REQUEST_FILNAME} !-f
+RewriteRule ^ index.php [QSA,L]
