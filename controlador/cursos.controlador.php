@@ -2,7 +2,7 @@
 
 class ControladorCursos {
 
-    public static function index () {
+    public function index () {
 
         //validar cliente
         $clientes= ModeloCliente::index("clientes");
